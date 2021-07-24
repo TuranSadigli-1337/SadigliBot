@@ -2,6 +2,7 @@
 
 ## Quraşdırma və Başlatma
 
+
 Python `3.7.3` vəya üstü tələb olunur.
 
 Lazımi paketləri quraşdırın (locally):
