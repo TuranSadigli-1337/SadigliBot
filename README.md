@@ -38,6 +38,6 @@ SadigliBotu quraşdırdıqdan sonra əmrləri `.` vasitəsilə verə bilərsiniz
 
 Əmrlər:
 ```
-.salam, .necəsiz, .sikayet(boşluq + istifadəçi adı), .şikayət, .adminlər(kodda dəyişiklik etməyiniz tələb olunur), .sil(boşluq + silmək istədiyiniz mesajların rəqəmi), .kick(boşluq + istifadəçi adı), .ban(boşluq + istifadəçi adı), .unban(boşluq + istifadəçi adı + # kodu)  
+Bələdçi faylından baxa bilərsiniz :)  
 ```
 
