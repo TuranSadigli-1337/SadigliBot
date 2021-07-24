@@ -26,7 +26,7 @@ cp .env.sample .env
 Botun Başladılması:
 
 ```
-python3 bot.py
+python3 bot.py vəya python bot.py
 ```
 
 **DİQQƏT! SadigliBot geliştirilməkdə davam edir. Edilən dəyişiklər GitHub səhifəsinə yüklənəcəkdir. Xəta müşahidə etdikdə, gmail adresimdən bildirə bilərsiniz. GMAIL: lastomocha@gmail.com**
