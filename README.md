@@ -30,3 +30,14 @@ python3 bot.py vəya python bot.py
 ```
 
 **DİQQƏT! SadigliBot geliştirilməkdə davam edir. Edilən dəyişiklər GitHub səhifəsinə yüklənəcəkdir. Xəta müşahidə etdikdə, gmail adresimdən bildirə bilərsiniz. GMAIL: lastomocha@gmail.com**
+
+
+**Bələdçi:**
+
+SadigliBotu quraşdırdıqdan sonra əmrləri `.` vasitəsilə verə bilərsiniz
+
+Əmrlər:
+```
+.salam, .necəsiz, .sikayet(boşluq + istifadəçi adı), .şikayət, .adminlər(kodda dəyişiklik etməyiniz tələb olunur), .sil(boşluq + silmək istədiyiniz mesajların rəqəmi), .kick(boşluq + istifadəçi adı), .ban(boşluq + istifadəçi adı), .unban(boşluq + istifadəçi adı + # kodu)  
+```
+
