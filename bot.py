@@ -133,7 +133,7 @@ async def adminler(ctx):
     author = ctx.author
     command = ctx.message.content
 
-    await channel.send("1) 👑Turan Sadigli👑\n2) 👑thejabbarli👑")
+    await channel.send(" ")
 
 
 def yoxlama(ctx):
