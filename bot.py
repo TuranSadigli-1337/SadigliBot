@@ -5,7 +5,6 @@
 #__müəllif huquqları__   = "Müəllif Hüquqları 2021, SadigliBot"
 #__lizensiya__     = "BSD 3-Clause License"
 
-
 import os
 import json
 import discord
