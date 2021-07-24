@@ -1,4 +1,4 @@
-# SadigliBot 
+# SadigliBot (Beta)
 
 ## Quraşdırma və Başlatma
 
@@ -29,3 +29,4 @@ Botun Başladılması:
 python3 bot.py
 ```
 
+**DİQQƏT! SadigliBot geliştirilməkdə davam edir. Edilən dəyişiklər GitHub səhifəsinə yüklənəcəkdir. Xəta müşahidə etdikdə, gmail adresimdən bildirə bilərsiniz. GMAIL: lastomocha@gmail.com**
