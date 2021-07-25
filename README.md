@@ -20,8 +20,8 @@ cp .env.sample .env
 `.env` açın və aşağıdakilərə əməl edin:
 
 | Hazır           | Dəyişin:                                                           
-|-----------------|-----------------------------------------------------------------------|
-| `DISCORD_TOKEN` | Discord bot token                                                     |
+|-----------------|--------------------------------------------------------------------------|
+| `DISCORD_TOKEN` | Öz Discord Tokeniniz                                                     |
 
 Botun Başladılması:
 
