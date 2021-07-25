@@ -43,3 +43,8 @@ SadigliBotu quraşdırdıqdan sonra əmrləri `.` vasitəsilə verə bilərsiniz
 
 .unban "istifadəçi adı+#kod"
 - "istifadəçi adı" istifadəçisinin banı qaldırıldı
+
+.prefixdəyiş "prefixi dəyişmək istədiyiniz işarə"
+- Prefix "dəyiştirdiyiniz işarə" olaraq dəyişdirildi.
+
+DİQQƏT! Prefix əmrini verə bilmək üçün "prefixes.json" faylına gəlib, Discord ID kodunuzu "" arasına yapışdırın.
