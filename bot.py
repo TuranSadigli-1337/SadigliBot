@@ -137,8 +137,7 @@ async def adminler(ctx):
 
 
 def yoxlama(ctx):
-    return ctx.author.id == 483209522064916480
-
+    return ctx.author.id == Sizin ID-niz
 
 @bot.command()
 @commands.check(yoxlama)
@@ -171,7 +170,23 @@ async def unban(ctx, *, member):
             await ctx.guild.unban(user)
             await ctx.send(f'{user.mention} istifadəçisinin banı qaldırıldı.')
             return
+        
+@bot.command(description="Istifadecini muteleyir")
+@commands.check(yoxlama)
+@commands.has_permissions(manage_messages=True)
+async def mute(ctx, member: discord.Member, *, reason=None):
+    guild = ctx.guild
+    muteliRole = discord.utils.get(guild.roles, name="Mutelendi")
 
+    if not muteliRole:
+        muteliRole = await guild.create_role(name="Mutelendi")
+
+        for channel in guild.channels:
+            await channel.set_permissions(muteliRole, speak=False, send_messages=False, read_messages_history=True, read_messages=False)
+
+    await member.add_roles(muteliRole, reason=reason)
+    await ctx.send(f"{member.mention} Muteləndi")
+    await member.send(f"Siz TORO serverindən {reason} səbəbinə görə muteləndiniz {guild.name}")
 
 if __name__ == "__main__":
     # botu başlat
