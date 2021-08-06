@@ -30,7 +30,7 @@ SadigliBotu quraşdırdıqdan sonra əmrləri `.` vasitəsilə verə bilərsiniz
 
 
 .sil (məsələn: 10)
-- 10 mesaj silindi
+- 10 mesaj silindi.
 
 
 .kick "istifadəçi adı"
@@ -38,13 +38,16 @@ SadigliBotu quraşdırdıqdan sonra əmrləri `.` vasitəsilə verə bilərsiniz
 
 
 .ban "istifadəçi adı"
-- "istifadəçi adı" banlandı
+- "istifadəçi adı" banlandı.
 
 
 .unban "istifadəçi adı+#kod"
-- "istifadəçi adı" istifadəçisinin banı qaldırıldı
+- "istifadəçi adı" istifadəçisinin banı qaldırıldı.
 
 .prefixdəyiş "prefixi dəyişmək istədiyiniz işarə"
 - Prefix "dəyiştirdiyiniz işarə" olaraq dəyişdirildi.
+
+.mute "istifadəçi adı" "səbəb"
+- "istifadəçi adı" Muteləndi.
 
 DİQQƏT! Prefix əmrini verə bilmək üçün "prefixes.json" faylına gəlib, Discord ID kodunuzu "" arasına yapışdırın.
