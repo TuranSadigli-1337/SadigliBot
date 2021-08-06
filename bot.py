@@ -185,7 +185,7 @@ async def mute(ctx, member: discord.Member, *, reason=None):
             await channel.set_permissions(muteliRole, speak=False, send_messages=False, read_messages_history=True, read_messages=False)
 
     await member.add_roles(muteliRole, reason=reason)
-    await ctx.send(f"{member.mention} Muteləndi")
+    await ctx.send(f"{member.mention} Muteləndi.")
     await member.send(f"Siz TORO serverindən {reason} səbəbinə görə muteləndiniz {guild.name}")
 
 if __name__ == "__main__":
