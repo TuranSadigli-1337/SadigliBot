@@ -50,4 +50,14 @@ SadigliBotu quraşdırdıqdan sonra əmrləri `.` vasitəsilə verə bilərsiniz
 .mute "istifadəçi adı" "səbəb"
 - "istifadəçi adı" Muteləndi.
 
+.topla x y
+- x ilə y cəmi
+
+.vur x y
+- x ilə y hasili
+
+.böl x y
+- x ilə y nisbəti
+
+
 DİQQƏT! Prefix əmrini verə bilmək üçün "prefixes.json" faylına gəlib, Discord ID kodunuzu "" arasına yapışdırın.
