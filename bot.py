@@ -187,6 +187,25 @@ async def mute(ctx, member: discord.Member, *, reason=None):
     await member.add_roles(muteliRole, reason=reason)
     await ctx.send(f"{member.mention} Muteləndi.")
     await member.send(f"Siz TORO serverindən {reason} səbəbinə görə muteləndiniz {guild.name}")
+    
+    
+@bot.command(name="topla")
+async def topla(ctx, a: float, b: float):
+    embed = discord.Embed(title="Cavab: ", description=a+b, color = 0x9208ea)
+    embed.set_footer(text="Digər əməllərimiz: .topla, .vur və .böl")
+    await ctx.send(embed=embed)
+
+@bot.command(name="vur")
+async def vur(ctx, a: float, b: float):
+    embed = discord.Embed(title="Cavab: ", description=a*b, color = 0x9208ea)
+    embed.set_footer(text="Digər əməllərimiz: .topla, .vur və .böl")
+    await ctx.send(embed=embed)
+
+@bot.command(name="böl")
+async def böl(ctx, a: int, b: int):
+    embed = discord.Embed(title="Cavab: ", description=a/b, color = 0x9208ea)
+    embed.set_footer(text="Digər əməllərimiz: .topla, .vur və .böl")
+    await ctx.send(embed=embed)
 
 if __name__ == "__main__":
     # botu başlat
