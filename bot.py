@@ -10,12 +10,20 @@ import json
 import discord
 import random
 import asyncio
+import wikipedia
+import datetime
+import discord, wikipedia 
+from discord import Option
+import wikipedia as wikipedia_lib
+import wikipedia
 
 from random import *
 from os.path import join, dirname
 from dotenv import load_dotenv
 from discord.utils import get
 from discord.ext import commands
+from discord import Option
+from wikipedia import *
 
 # load .env file
 dir_path = os.path.dirname(os.path.realpath(__file__))
