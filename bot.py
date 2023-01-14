@@ -206,6 +206,13 @@ async def böl(ctx, a: int, b: int):
     embed = discord.Embed(title="Cavab: ", description=a/b, color = 0x9208ea)
     embed.set_footer(text="Digər əməllərimiz: .topla, .vur və .böl")
     await ctx.send(embed=embed)
+    
+    
+@bot.command(name="axtar")
+async def axtar(ctx, a):
+    wikipedia.set_lang("az")
+    embed = discord.Embed(title="Cavab: ", description=wikipedia.summary(a, sentences=10, auto_suggest=True, redirect=True), color = 0x9208ea)
+    await ctx.send(embed=embed)
 
 if __name__ == "__main__":
     # botu başlat
