@@ -59,5 +59,7 @@ SadigliBotu quraşdırdıqdan sonra əmrləri `.` vasitəsilə verə bilərsiniz
 .böl x y
 - x ilə y nisbəti
 
+.axtar "istədiyiniz bir şey"
+- axtardığınız şey barədə məlumatlar
 
 DİQQƏT! Prefix əmrini verə bilmək üçün "prefixes.json" faylına gəlib, Discord ID kodunuzu "" arasına yapışdırın.
