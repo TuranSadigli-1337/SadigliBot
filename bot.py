@@ -222,6 +222,42 @@ async def axtar(ctx, a):
     embed = discord.Embed(title="Cavab: ", description=wikipedia.summary(a, sentences=10, auto_suggest=True, redirect=True), color = 0x9208ea)
     await ctx.send(embed=embed)
 
+
+#Hava Proqnozu
+
+WEATHER_API_KEY = 'SIZIN_API_AÇARINIZ'
+
+@bot.command(name="hava")
+async def weather(ctx, *, city: str):
+
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={WEATHER_API_KEY}&units=metric"
+    
+    response = requests.get(url)
+    data = response.json()
+    
+    if data["cod"] != "404":
+        main = data["main"]
+        weather_desc = data["weather"][0]["description"]
+        temp = main["temp"]
+        humidity = main["humidity"]
+        
+        embed = discord.Embed(
+            title=f"{city.capitalize()} şəhərində hava proqnozu",
+            description=f"**Temperatur:** {temp}°C\n**Nəm:** {humidity}%\n**Aydınlıq:** {weather_desc.capitalize()}",
+            color=0x00FF00  # Green color
+        )
+        embed.set_footer(text="OpenWeatherMap şirkəti tərəfindən göstərilən hava məlumatlarıdır.")
+    else:
+
+        embed = discord.Embed(
+            title="Error",
+            description="DAXİL ETDİYİNİZ ŞƏHƏR MÖVCUD DEYİL!",
+            color=0xFF0000
+        )
+    
+    await ctx.send(embed=embed)
+
+
 if __name__ == "__main__":
     # botu başlat
     bot.run(DISCORD_TOKEN)
