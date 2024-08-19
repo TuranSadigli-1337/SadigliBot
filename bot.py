@@ -244,7 +244,7 @@ async def weather(ctx, *, city: str):
         embed = discord.Embed(
             title=f"{city.capitalize()} şəhərində hava proqnozu",
             description=f"**Temperatur:** {temp}°C\n**Nəm:** {humidity}%\n**Aydınlıq:** {weather_desc.capitalize()}",
-            color=0x00FF00  # Green color
+            color=0x00FF00
         )
         embed.set_footer(text="OpenWeatherMap şirkəti tərəfindən göstərilən hava məlumatlarıdır.")
     else:
