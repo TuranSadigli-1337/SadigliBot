@@ -62,4 +62,7 @@ SadigliBotu quraşdırdıqdan sonra əmrləri `.` vasitəsilə verə bilərsiniz
 .axtar "istədiyiniz bir şey"
 - axtardığınız şey barədə məlumatlar
 
+.hava "Şəhər adı"
+
 DİQQƏT! Prefix əmrini verə bilmək üçün "prefixes.json" faylına gəlib, Discord ID kodunuzu "" arasına yapışdırın.
+DİQQƏT! Hava Proqnozunu aktiv etmək üçün openweathermap.org saytından qeydiyyatdan keçərək öz hesabınıza aid API_KEY istifadə etməyiniz tələb olunur. Əldə etdiyiniz API_KEYi kodda WEATHER_API_KEY = " " hissəsinə daxil etməyiniz yetərlidir.
