@@ -29,7 +29,7 @@ Botun Başladılması:
 python3 bot.py vəya python bot.py
 ```
 
-**DİQQƏT! SadigliBot geliştirilməkdə davam edir. Edilən dəyişiklər GitHub səhifəsinə yüklənəcəkdir. Xəta müşahidə etdikdə, gmail adresimdən bildirə bilərsiniz. GMAIL: lastomocha@gmail.com yaxud sadiglibot@gmail.com**
+**DİQQƏT! SadigliBot geliştirilməkdə davam edir. Edilən dəyişiklər GitHub səhifəsinə yüklənəcəkdir. Xəta müşahidə etdikdə, gmail adresimdən bildirə bilərsiniz. GMAIL: sadiglibot@gmail.com**
 
 
 **Bələdçi:**
